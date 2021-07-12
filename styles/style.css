@@ -1,0 +1,55 @@
+/*--------------
+ font
+----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* common */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* main  */
+main{
+    display: flex;
+    justify-content: center;
+}
+
+/*---------------
+ top section
+ ---------------- */
+ /* top players */
+ 
+.section_title{
+    margin: 33px 0 40px 0;
+    color: #562EFF;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+}
+.single_player{
+    display: flex;
+    align-items: center;
+}
+.single_player img{
+    width: 56px;
+    height: 56px;
+}
+.player_heading{
+    margin-left: 16px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+    
+}
